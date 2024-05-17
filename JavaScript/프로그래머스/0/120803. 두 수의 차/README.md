@@ -1,6 +1,6 @@
 # [level 0] 두 수의 차 - 120803 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803?language=javascript) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 05월 18일 03:16:23
+2024년 05월 18일 03:16:49
 
 ### 문제 설명
 

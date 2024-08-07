@@ -8,7 +8,7 @@ class Solution {
         for (int i = 0; i < prices.length; i++) {
             while(!stack.isEmpty()) {
                 int j = stack.peek();
-                if (prices[j] > prices[i]) {
+                if(prices[j] > prices[i]) {
                     answer[j] = i - j;
                     stack.pop();
                 }
@@ -17,7 +17,7 @@ class Solution {
             stack.push(i);
         }
         
-        while (!stack.isEmpty()) {
+        while(!stack.isEmpty()) {
             int i = stack.pop();
             answer[i] = prices.length - i - 1;
         }
